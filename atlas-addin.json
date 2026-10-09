@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "connectorApi": 1,
+  "id": "portainer-connector",
+  "name": "Portainer connector",
+  "description": "Independent portainer inventory collector for Atlas.",
+  "version": "1.0.0",
+  "runtime": "python",
+  "entrypoint": "connector.py",
+  "credentialRequired": true,
+  "configuration": [
+    {
+      "key": "upstreamUrl",
+      "label": "Portainer URL",
+      "type": "url",
+      "required": true
+    },
+    {
+      "key": "tlsFingerprint",
+      "label": "Certificate SHA-256 fingerprint (optional)",
+      "type": "text"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "30365283c7dfcf0797585eea07a12144170879ebebf2a95aca20084eef426bfe"
+    },
+    {
+      "path": "connector.py",
+      "sha256": "eb711d60d787eef8afaef3e38db47e483e29e73319455723fb90a272add80dac"
+    },
+    {
+      "path": "worker/collector.py",
+      "sha256": "59463f633f689850e7b19b28f22375d329b3ba03a8b4a9da230a6eb818d2e3f7"
+    },
+    {
+      "path": "worker/runtime.py",
+      "sha256": "6b3cc45bb83c4b3a80a8fe728a0d94dd0b21bc8288600b0160449e3b9ae71227"
+    }
+  ]
+}
