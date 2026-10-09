@@ -24,7 +24,7 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "30365283c7dfcf0797585eea07a12144170879ebebf2a95aca20084eef426bfe"
+      "sha256": "e0ddf0cdb1ac266421da4856886d2aefef89cea2f809356a50b5be2762a7f15d"
     },
     {
       "path": "connector.py",
