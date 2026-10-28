@@ -4,7 +4,7 @@
   "id": "portainer-connector",
   "name": "Portainer connector",
   "description": "Independent portainer inventory collector for Atlas.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "runtime": "python",
   "entrypoint": "connector.py",
   "credentialRequired": true,
@@ -24,7 +24,7 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "e0ddf0cdb1ac266421da4856886d2aefef89cea2f809356a50b5be2762a7f15d"
+      "sha256": "17fe12a0089ce9832c9a43e7eff8413fe42fbac647f6979c7fb0e8be2ed98cf1"
     },
     {
       "path": "connector.py",
